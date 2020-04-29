@@ -18,6 +18,7 @@ WordPress is an online, open source website creation tool written in PHP. But in
 
    * In order to launch this set up you must have Docker & Docker compose installed on your computer having linux os.
 
+
 # Steps:
 
  * Step 1:
@@ -47,9 +48,9 @@ WordPress is an online, open source website creation tool written in PHP. But in
 
    * Step 4:
 
-      * Go in your browser type this url in order to access web pages from web server: `http://192.168.40.130:5000/` (It                 will give you index file which is written in php.)
+      * Go in your browser type this url in order to access web pages from web server: `http://192.168.40.130:5000/`#(It                 will give you index file which is written in php.)
       * Now for accessing phpmyadmin for managing mysql database write this url: `http://192.168.40.130:8000/`
-      * Note : `here 5000 & 8000 are port no.` that should be free in your system if they are not then you can change by                 going inside the docker-compose.yml file
+      * Note : `here 5000 & 8000 are port no.` that should be free in your system if they are not then you can change by                 going inside the `docker-compose.yml` file. 
      
 
 
