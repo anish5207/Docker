@@ -14,7 +14,7 @@ WordPress is an online, open source website creation tool written in PHP. But in
    * When normally we do this it takes a lots of time to set up the environment for these servers , for installation            ,configuration & many more!!
    * So, you can launch whole environment in just one click & can focuse on developing part except these things.
    * you can also share your environment with your team mates by just cloning the container & by creating a image from          it.
-# Software Requirenments:
+# Software Requirements:
 
    * Following are the pre-requisites to set-up the infrastructure: *
 1. Docker needs to be installed on our base OS and we need to start the docker services.
