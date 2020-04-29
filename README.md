@@ -16,7 +16,16 @@ WordPress is an online, open source website creation tool written in PHP. But in
    * you can also share your environment with your team mates by just cloning the container & by creating a image from          it.
 # Software Requirenments:
 
-   * In order to launch this set up you must have Docker & Docker compose installed on your computer having linux os.
+   * Following are the pre-requisites to set-up the infrastructure: *
+1. Docker needs to be installed on our base OS and we need to start the docker services.
+   To start docker services permanently ```systemctl enable docker```.
+2. We need to install the docker-compose software inorder to use it. To install docker- compose, follow the steps: * *Go to google --> In the search box search ```docker compose rpm``` --> Choose `Install Docker compose` --> Based on the base OS select whether Mac, Windows or Linux etc. --> Copy the command and paste it in the terminal of the base OS.
+3. Pull the images from [docker image registry](hub.docker.com)
+ - Pulling MySQL Image: Use `docker pull mysql:5.7` to download **MySQL version 5.7** image. I have used version 5.7 as it is considered the most compatible version with RHEL 8.
+ - Pulling Wordpress Image: Use `docker pull wordpress:5.1.1-php7.3-apache` to download ** wordpress:5.1.1-php7.3-apache ** image. I have used this version as it comes with php and apache server. 
+ 
+
+ 
 
 
 # Steps:
