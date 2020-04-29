@@ -24,7 +24,7 @@ WordPress is an online, open source website creation tool written in PHP. But in
 
     * Clone this repository or download it in your computer .
     * The directory structure should be like this:
-        mycompository:-
+        mycompose:-
            ```
              docker-compose.yml
            ```
@@ -34,7 +34,7 @@ WordPress is an online, open source website creation tool written in PHP. But in
 
      * check the version of docker-compose by this command:
             ``` docker-compose version ```
-     * Now you should be in lamp directory because in this directory we have our docker-compose.yml file .
+     * Now you should be in mycompose directory because in this directory we have our docker-compose.yml file .
         Now run this command :
              ```docker-compose up -d ```
      *  All the services will be run in background inside the docker containers.(because we used detach option in                 command).
@@ -47,9 +47,9 @@ WordPress is an online, open source website creation tool written in PHP. But in
 
    * Step 4:
 
-      * Go in your browser type this url in order to access web pages from web server: `http://192.168.40.130:2000/` (It                 will give you index file which is written in php.)
-      * Now for accessing phpmyadmin for managing mysql database write this url: `http://192.168.40.130:7000/`
-      * Note : `here 2000 & 7000 are port no.` that should be free in your system if they are not then you can change by                 going inside the docker-compose.yml file
+      * Go in your browser type this url in order to access web pages from web server: `http://192.168.40.130:5000/` (It                 will give you index file which is written in php.)
+      * Now for accessing phpmyadmin for managing mysql database write this url: `http://192.168.40.130:8000/`
+      * Note : `here 5000 & 8000 are port no.` that should be free in your system if they are not then you can change by                 going inside the docker-compose.yml file
      
 
 
