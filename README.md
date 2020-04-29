@@ -6,7 +6,7 @@ Docker is one of the revolutionary technologies based on the containerization te
 
 # Introduction:
 
-This repository contains a complete setup for wordpress with mysql server inside the docker container.
+This infrastructure contains a complete setup for wordpress with mysql server inside the docker container.
 WordPress is an online, open source website creation tool written in PHP. But in non-geek speak, it’s probably the easiest and most powerful blogging and website content management system 
 
 # What is the need of docker ??
