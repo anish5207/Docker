@@ -20,7 +20,7 @@ while True:
     choice= int(input("\t\tEnter your Choice :"))
     
     if choice == 1:
-        os.system("cp dock.repo/etc/yum.repos.d/")
+     
         os.system("yum install docker-ce --nobest")
         print("Docker is succesfully installed GO and check")
     elif choice == 2:
